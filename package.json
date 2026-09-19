@@ -1,0 +1,40 @@
+{
+  "name": "koishi-plugin-local-random-image",
+  "version": "1.0.0",
+  "description": "A Koishi plugin to send random images from local folders matched by keywords.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "koishi",
+    "plugin",
+    "image",
+    "local-gallery"
+  ],
+  "author": "sumushuo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumushuo/koishi-plugin-local-random-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumushuo/koishi-plugin-local-random-image/issues"
+  },
+  "homepage": "https://github.com/sumushuo/koishi-plugin-local-random-image#readme",
+  "peerDependencies": {
+    "koishi": "^4.15.0"
+  },
+  "devDependencies": {
+    "koishi": "^4.18.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
